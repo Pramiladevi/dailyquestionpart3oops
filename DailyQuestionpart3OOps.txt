@@ -1,0 +1,61 @@
+1.What is oops stands for?
+*Oops stands for Object Oriented Programming System .
+*The basic concept of oops is to create object,re-use them throughout the program,and manipulate these object to get results.
+
+2.What is Polymorphism? explain types?
+*Polymorphism is the  ability of any data to be processed in more than one form.
+*It has 2types 
+   1)  method overriding
+   2)  method overloading
+method overriding
+*Sub class has the  same method as declared in the parent class,it is known as method overriding.
+method overloading
+*A class has multiple methods having same name but different parameters,it is known as method overloading. 
+
+3.what is interface and example in selenium,java?
+*In Java, an interface is a blueprint or template of a class.
+* It is much similar to the Java class but the only difference is that it has abstract methods and static constants.
+eg:
+    * ( Chromedriver-Extends-Chromiumdriver
+         Chromiumdriver-extends-Remotewebdriver)selenium 
+    *  (Arraylist -Extends-Abstractlist
+          Abstractlist-Extends-Abstractcollection)Java
+
+4.what is abstarct class and example?
+*A class which is declared with the abstract keyword is known as an abstract class.
+*Abstract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+*Abstact class have implemented and unimplemented methods.
+example;
+*abstract class A{}  
+
+5.Difference between multiple inheritance and multilevel inheritance
+multiple inheritance
+*It inherits characteristics and features from more than one parent object or parent class.(it is not supported in java).
+multilevel inheritance
+*There is a chain of inheritance(eg:baby dog class inherits dog class,dog class inherits animal class).
+
+6.Is multiple inheritance possible in java?
+No,multiple inheritance is not possible in java.
+
+7.What is keyword for using inheritance  
+*extends is the keyword  using for inheritance.
+
+8.what is the keyword to connect interface and class
+*implements  is the keyword to connect interface and class.
+
+9.what is difference between class and interface
+class
+*A class describes the attributes and behaviors of an object.  
+*A class may contain abstract methods, concrete methods.
+interface
+*An interface contains behaviors that a class implements.
+ *An interface contains only abstract methods 
+
+10.what is difference between class and abstract class
+class
+*Class method can have body.
+*Class can declared as final.
+abstract calss
+*Abstract methods cannot have body.
+*Abstract class can have static fields and static method, like other classes.
+*An abstract class cannot be declared as final.
